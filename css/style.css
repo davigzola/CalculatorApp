@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap');
+
+body {
+    background-color: hsl(222, 26%, 31%);
+}
+
+.logo-theme {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 7rem auto 2rem auto;
+    width: 38rem;
+    font-family: 'League Spartan', sans-serif;
+    color: white;
+}
+
+.logo {
+    font-size: 2rem;
+}
+
+.theme {
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.theme-selection {
+    background-color: hsl(223, 31%, 20%);
+    color: hsl(223, 31%, 20%);
+    font-size: 2rem;
+    padding: 0 2.5rem;
+    border-radius: 1rem;
+    user-select: none;
+}
+
+.calculator-buttons {
+    background-color: hsl(223, 31%, 20%);
+    width: 34rem;
+    height: 26rem;
+    margin: 2rem auto 0 auto;
+    border-radius: 1rem;
+    padding: 40px;
+    user-select: none;
+}
+
+.calculator-screen {
+    background-color: hsl(224, 36%, 15%);
+    width: 38rem;
+    height: 7rem;
+    margin: 0 auto;
+    font-family: 'League Spartan', sans-serif;
+    color: white;
+    font-size: 6rem;
+    text-align: right;
+    padding: 30px 20px 0 0;
+    border-radius: 1rem;
+}
+
+.number-buttons {
+    box-shadow: 0 4px 0 0 hsl(28, 16%, 65%);
+}
+
+.number-buttons:hover {
+    transition: 0.5s;
+    background-color: hsl(30, 25%, 100%);
+    box-shadow: 0 4px 0 0 hsl(28, 16%, 80%);
+}
+
+.number-buttons:active {
+    box-shadow: none;
+    transition: 0.5s;
+}
+
+.buttons {
+    font-family: 'League Spartan', sans-serif;
+    border: none;
+    width: 7rem;
+    height: 4rem;
+    margin: 10px 10px;
+    font-size: 2.5rem;
+    border-radius: 0.5rem;
+    background-color: hsl(30, 25%, 89%);
+    color: hsl(221, 14%, 31%);
+    transition: 0.5s;
+}
+
+.del-button {
+    background-color: hsl(225, 21%, 49%);
+    color: hsl(0, 0%, 100%);
+    font-size: 2rem;
+    box-shadow: 0 4px 0 0 hsl(224, 28%, 35%);
+    transition: 0.5s;
+}
+
+.del-button:hover {
+    background-color: hsl(225, 21%, 60%);
+    box-shadow: 0 4px 0 0 hsl(224, 28%, 50%);
+    transition: 0.5s;
+}
+
+.del-button:active {
+    box-shadow: none;
+    transition: 0.5s;
+}
+
+.fifth-buttons {
+    border: none;
+    color: hsl(0, 0%, 100%);
+    margin: 10px 0;
+    width: 15.8rem;
+    height: 4rem;
+    border-radius: 0.5rem;
+    margin-left: 10px;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 1.5rem
+}
+
+.reset {
+    background-color: hsl(225, 21%, 49%);
+    box-shadow: 0 4px 0 0 hsl(224, 28%, 35%);
+    transition: 0.5s;
+}
+
+.reset:hover {
+    background-color: hsl(225, 21%, 60%);
+    box-shadow: 0 4px 0 0 hsl(224, 28%, 50%);
+    transition: 0.5s;
+}
+
+.reset:active {
+    box-shadow: none;
+    transition: 0.5s;
+}
+
+.equal {
+    background-color: hsl(6, 63%, 50%);
+    box-shadow: 0 4px 0 0 hsl(6, 70%, 34%);
+    transition: 0.5s;
+}
+
+.equal:hover {
+    background-color: hsl(6, 63%, 60%);
+    box-shadow: 0 4px 0 0 hsl(6, 70%, 50%);
+}
+
+.equal:active {
+    box-shadow: none;
+    transition: 0.5s;
+}
