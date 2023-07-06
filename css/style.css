@@ -77,7 +77,7 @@ body {
     border: none;
     width: 7rem;
     height: 4rem;
-    margin: 10px 10px;
+    margin: 10px;
     font-size: 2.5rem;
     border-radius: 0.5rem;
     background-color: hsl(30, 25%, 89%);
@@ -147,4 +147,84 @@ body {
 .equal:active {
     box-shadow: none;
     transition: 0.5s;
+}
+
+@media screen and (max-width: 680px) {
+        .logo-theme {
+        margin: 5.5rem auto 3rem auto;
+        width: 88vw;
+    }
+
+    .calculator-screen {
+        width: 88vw;
+    }
+
+    .calculator-buttons {
+        width: 85.5vw;
+        height: 100vw;
+        padding: 15px;
+        margin-bottom: 5rem;
+    }
+
+    .buttons {
+        width: 18vw;
+        height: 18vw;
+        margin: 5px;
+    }
+    
+    .reset {
+        margin: 5px;
+    }
+
+    .fifth-buttons {
+        width: 37.7vw;
+    } 
+}
+
+
+@media screen and (max-width: 430px) {
+
+    .logo-theme {
+        margin: 5.5rem auto 3rem auto;
+        width: 88vw;
+    }
+
+    .calculator-screen {
+        width: 88vw;
+    }
+
+    .calculator-buttons {
+        width: 85.5vw;
+        height: 27rem;
+        padding: 15px;
+        margin-bottom: 5rem;
+    }
+
+    .buttons {
+        width: 18vw;
+        height: 18vw;
+        margin: 5px;
+    }
+    
+    .reset {
+        margin: 5px;
+    }
+
+    .fifth-buttons {
+        width: 38.8vw;
+    } 
+
+
+
+}
+
+@media screen and (max-width: 385px) {
+
+    .buttons {
+        width: 17vw;
+    }
+
+    .fifth-buttons {
+        width: 37vw;
+    }
 }
